@@ -92,6 +92,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
   max-height: 40px;
+    z-index: 9999;
 }
 
 /*--------------------------------------------------------------
@@ -407,7 +408,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #fdc134;
   transition: all ease-in-out 0.3s;
   display: inline-block;
-  background: blue;
+  background: red;
 }
 
 #hero .btn-get-started2:hover {
