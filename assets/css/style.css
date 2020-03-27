@@ -742,7 +742,7 @@ section {
   margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
+.features .portfolio-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
@@ -750,7 +750,7 @@ section {
   z-index: 1;
 }
 
-.portfolio .portfolio-wrap::before {
+.features .portfolio-wrap::before {
   content: "";
   background: rgba(33, 59, 82, 0.6);
   position: absolute;
@@ -762,11 +762,11 @@ section {
   z-index: 2;
 }
 
-.portfolio .portfolio-wrap img {
+.features .portfolio-wrap img {
   transition: 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-links {
+.features .portfolio-wrap .portfolio-links {
   opacity: 0;
   left: 0;
   right: 0;
@@ -777,7 +777,7 @@ section {
   transition: all ease-in-out 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
+.features .portfolio-wrap .portfolio-links a {
   color: #fdc134;
   font-size: 24px;
   line-height: 1;
@@ -788,11 +788,11 @@ section {
   transition: 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+.features .portfolio-wrap .portfolio-links a:hover {
   color: #fff;
 }
 
-.portfolio .portfolio-wrap .portfolio-info {
+.features .portfolio-wrap .portfolio-info {
   opacity: 0;
   position: absolute;
   bottom: -20px;
@@ -803,28 +803,28 @@ section {
   transition: all ease-in-out 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-info h4 {
+.features .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
 }
 
-.portfolio .portfolio-wrap .portfolio-info p {
+.features .portfolio-wrap .portfolio-info p {
   color: #ffffff;
   font-size: 14px;
   text-transform: uppercase;
 }
 
-.portfolio .portfolio-wrap:hover::before {
+.features .portfolio-wrap:hover::before {
   left: 0;
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-links {
+.features .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   top: calc(50% - 18px);
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-info {
+.features .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
   bottom: 0;
 }
